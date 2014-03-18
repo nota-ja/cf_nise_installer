@@ -65,6 +65,8 @@ properties:
       generic:
         collocate_cc:
           number_of_workers: 1
+    clock:
+      collocate_cc: true
 
   ccng: *cc
 
